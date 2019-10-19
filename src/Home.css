@@ -1,0 +1,18 @@
+
+ body{
+    font-family: "georgia",'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+/* #993333 red
+#1688D4 blue
+#FFBB1E yellow */
+
+.dot-label{
+    font-size: small
+}
+
+.spacecraft-detail{
+    margin-top: 5px;
+    margin-bottom: 5px
+}

@@ -1,0 +1,142 @@
+[
+    {
+      "Latin Name": "Lacus Aestatis",
+      "English Name": "Lake of Summer",
+      "Lat.": "15.0° S",
+      "Long.": "69.0° W",
+      "Diameter (km)": 90
+    },
+    {
+      "Latin Name": "Lacus Autumni",
+      "English Name": "Lake of Autumn",
+      "Lat.": "9.9° S",
+      "Long.": "83.9° W",
+      "Diameter (km)": 183
+    },
+    {
+      "Latin Name": "Lacus Bonitatis",
+      "English Name": "Lake of Goodness",
+      "Lat.": "23.2° N",
+      "Long.": "43.7° E",
+      "Diameter (km)": 92
+    },
+    {
+      "Latin Name": "Lacus Doloris",
+      "English Name": "Lake of Sorrow",
+      "Lat.": "17.1° N",
+      "Long.": "9.0° E",
+      "Diameter (km)": 110
+    },
+    {
+      "Latin Name": "Lacus Excellentiae",
+      "English Name": "Lake of Excellence",
+      "Lat.": "35.4° S",
+      "Long.": "44.0° W",
+      "Diameter (km)": 184
+    },
+    {
+      "Latin Name": "Lacus Felicitatis",
+      "English Name": "Lake of Happiness",
+      "Lat.": "19.0° N",
+      "Long.": "5.0° E",
+      "Diameter (km)": 90
+    },
+    {
+      "Latin Name": "Lacus Gaudii",
+      "English Name": "Lake of Joy",
+      "Lat.": "16.2° N",
+      "Long.": "12.6° E",
+      "Diameter (km)": 113
+    },
+    {
+      "Latin Name": "Lacus Hiemalis",
+      "English Name": "Lake of Winter",
+      "Lat.": "15.0° N",
+      "Long.": "14.0° E",
+      "Diameter (km)": 50
+    },
+    {
+      "Latin Name": "Lacus Lenitatis",
+      "English Name": "Lake of Softness",
+      "Lat.": "14.0° N",
+      "Long.": "12.0° E",
+      "Diameter (km)": 80
+    },
+    {
+      "Latin Name": "Lacus Luxuriae",
+      "English Name": "Lake of Luxury",
+      "Lat.": "19.0° N",
+      "Long.": "176.0° E",
+      "Diameter (km)": 50
+    },
+    {
+      "Latin Name": "Lacus Mortis",
+      "English Name": "Lake of Death",
+      "Lat.": "45.0° N",
+      "Long.": "27.2° E",
+      "Diameter (km)": 151
+    },
+    {
+      "Latin Name": "Lacus Oblivionis",
+      "English Name": "Lake of Forgetfulness",
+      "Lat.": "21.0° S",
+      "Long.": "168.0° W",
+      "Diameter (km)": 50
+    },
+    {
+      "Latin Name": "Lacus Odii",
+      "English Name": "Lake of Hatred",
+      "Lat.": "19.0° N",
+      "Long.": "7.0° E",
+      "Diameter (km)": 70
+    },
+    {
+      "Latin Name": "Lacus Perseverantiae",
+      "English Name": "Lake of Perseverance",
+      "Lat.": "8.0° N",
+      "Long.": "62.0° E",
+      "Diameter (km)": 70
+    },
+    {
+      "Latin Name": "Lacus Solitudinis",
+      "English Name": "Lake of Solitude",
+      "Lat.": "27.8° S",
+      "Long.": "104.3° E",
+      "Diameter (km)": 139
+    },
+    {
+      "Latin Name": "Lacus Somniorum",
+      "English Name": "Lake of Dreams",
+      "Lat.": "38.0° N",
+      "Long.": "29.2° E",
+      "Diameter (km)": 384
+    },
+    {
+      "Latin Name": "Lacus Spei",
+      "English Name": "Lake of Hope",
+      "Lat.": "43.0° N",
+      "Long.": "65.0° E",
+      "Diameter (km)": 80
+    },
+    {
+      "Latin Name": "Lacus Temporis",
+      "English Name": "Lake of Time",
+      "Lat.": "45.9° N",
+      "Long.": "58.4° E",
+      "Diameter (km)": 117
+    },
+    {
+      "Latin Name": "Lacus Timoris",
+      "English Name": "Lake of Fear",
+      "Lat.": "38.8° S",
+      "Long.": "27.3° W",
+      "Diameter (km)": 117
+    },
+    {
+      "Latin Name": "Lacus Veris",
+      "English Name": "Lake of Spring",
+      "Lat.": "16.5° S",
+      "Long.": "86.1° W",
+      "Diameter (km)": 396
+    }
+   ]

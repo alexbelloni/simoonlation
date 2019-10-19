@@ -1,0 +1,76 @@
+{
+    "Maria": [
+        {
+            "Compound": "silica",
+            "Formula": "SiO2",
+            "Composition": "45.4%"
+        },
+        {
+            "Compound": "alumina",
+            "Formula": "Al2O3",
+            "Composition": "14.9%"
+        },
+        {
+            "Compound": "lime",
+            "Formula": "CaO",
+            "Composition": "11.8%"
+        },
+        {
+            "Compound": "iron(II) oxide",
+            "Formula": "FeO",
+            "Composition": "14.1%"
+        },
+        {
+            "Compound": "magnesia",
+            "Formula": "MgO",
+            "Composition": "9.2%"
+        },
+        {
+            "Compound": "titanium dioxide",
+            "Formula": "TiO2",
+            "Composition": "3.9%"
+        },
+        {
+            "Compound": "sodium oxide",
+            "Formula": "Na2O",
+            "Composition": "0.6%"
+        }
+    ],
+    "Highlands": [
+        {
+            "Compound": "silica",
+            "Formula": "SiO2",
+            "Composition": "45.5%"
+        },
+        {
+            "Compound": "alumina",
+            "Formula": "Al2O3",
+            "Composition": "24.0%"
+        },
+        {
+            "Compound": "lime",
+            "Formula": "CaO",
+            "Composition": "15.9%"
+        },
+        {
+            "Compound": "iron(II) oxide",
+            "Formula": "FeO",
+            "Composition": "5.9%"
+        },
+        {
+            "Compound": "magnesia",
+            "Formula": "MgO",
+            "Composition": "7.5%"
+        },
+        {
+            "Compound": "titanium dioxide",
+            "Formula": "TiO2",
+            "Composition": "0.6%"
+        },
+        {
+            "Compound": "sodium oxide",
+            "Formula": "Na2O",
+            "Composition": "0.6%"
+        }
+    ]
+}

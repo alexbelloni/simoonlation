@@ -1,0 +1,163 @@
+[
+    {
+      "Latin Name": "Mare Anguis",
+      "English Name": "Serpent Sea",
+      "Lat.": "22.6° N",
+      "Long.": "67.7° E",
+      "Diameter (km)": 150
+    },
+    {
+      "Latin Name": "Mare Australe",
+      "English Name": "Southern Sea",
+      "Lat.": "38.9° S",
+      "Long.": "93.0° E",
+      "Diameter (km)": 603
+    },
+    {
+      "Latin Name": "Mare Cognitum",
+      "English Name": "Sea of Knowledge",
+      "Lat.": "10.0° S",
+      "Long.": "23.1° W",
+      "Diameter (km)": 376
+    },
+    {
+      "Latin Name": "Mare Crisium",
+      "English Name": "Sea of Crises",
+      "Lat.": "17.0° N",
+      "Long.": "59.1° E",
+      "Diameter (km)": 418
+    },
+    {
+      "Latin Name": "Mare Fecunditatis",
+      "English Name": "Sea of Fecundity",
+      "Lat.": "7.8° S",
+      "Long.": "51.3° E",
+      "Diameter (km)": 909
+    },
+    {
+      "Latin Name": "Mare Frigoris",
+      "English Name": "Sea of Cold",
+      "Lat.": "56.0° N",
+      "Long.": "1.4° E",
+      "Diameter (km)": 1596
+    },
+    {
+      "Latin Name": "Mare Humboldtianum",
+      "English Name": "Sea of Alexander von Humboldt",
+      "Lat.": "56.8° N",
+      "Long.": "81.5° E",
+      "Diameter (km)": 273
+    },
+    {
+      "Latin Name": "Mare Humorum",
+      "English Name": "Sea of Moisture",
+      "Lat.": "24.4° S",
+      "Long.": "38.6° W",
+      "Diameter (km)": 389
+    },
+    {
+      "Latin Name": "Mare Imbrium[2]",
+      "English Name": "Sea of Showers",
+      "Lat.": "32.8° N",
+      "Long.": "15.6° W",
+      "Diameter (km)": 1123
+    },
+    {
+      "Latin Name": "Mare Ingenii",
+      "English Name": "Sea of Cleverness",
+      "Lat.": "33.7° S",
+      "Long.": "163.5° E",
+      "Diameter (km)": 318
+    },
+    {
+      "Latin Name": "Mare Insularum",
+      "English Name": "Sea of Islands",
+      "Lat.": "7.5° N",
+      "Long.": "30.9° W",
+      "Diameter (km)": 513
+    },
+    {
+      "Latin Name": "Mare Marginis",
+      "English Name": "Sea of the Edge",
+      "Lat.": "13.3° N",
+      "Long.": "86.1° E",
+      "Diameter (km)": 420
+    },
+    {
+      "Latin Name": "Mare Moscoviense",
+      "English Name": "Sea of Moscow",
+      "Lat.": "27.3° N",
+      "Long.": "147.9° E",
+      "Diameter (km)": 277
+    },
+    {
+      "Latin Name": "Mare Nectaris",
+      "English Name": "Sea of Nectar",
+      "Lat.": "15.2° S",
+      "Long.": "35.5° E",
+      "Diameter (km)": 333
+    },
+    {
+      "Latin Name": "Mare Nubium",
+      "English Name": "Sea of Clouds",
+      "Lat.": "21.3° S",
+      "Long.": "16.6° W",
+      "Diameter (km)": 715
+    },
+    {
+      "Latin Name": "Mare Orientale",
+      "English Name": "Eastern Sea",
+      "Lat.": "19.4° S",
+      "Long.": "92.8° W",
+      "Diameter (km)": 327
+    },
+    {
+      "Latin Name": "Mare Serenitatis",
+      "English Name": "Sea of Serenity",
+      "Lat.": "28.0° N",
+      "Long.": "17.5° E",
+      "Diameter (km)": 707
+    },
+    {
+      "Latin Name": "Mare Smythii",
+      "English Name": "Smyth's Sea",
+      "Lat.": "1.3° N",
+      "Long.": "87.5° E",
+      "Diameter (km)": 373
+    },
+    {
+      "Latin Name": "Mare Spumans",
+      "English Name": "Foaming Sea",
+      "Lat.": "1.1° N",
+      "Long.": "65.1° E",
+      "Diameter (km)": 139
+    },
+    {
+      "Latin Name": "Mare Tranquillitatis",
+      "English Name": "Sea of Tranquility",
+      "Lat.": "8.5° N",
+      "Long.": "31.4° E",
+      "Diameter (km)": 873
+    },
+    {
+      "Latin Name": "Mare Undarum",
+      "English Name": "Sea of Waves",
+      "Lat.": "6.8° N",
+      "Long.": "68.4° E",
+      "Diameter (km)": 243
+    },
+    {
+      "Latin Name": "Mare Vaporum",
+      "English Name": "Sea of Vapors",
+      "Lat.": "13.3° N",
+      "Long.": "3.6° E",
+      "Diameter (km)": 245
+    },
+    {
+      "Latin Name": "Oceanus Procellarum",
+      "English Name": "Ocean of Storms",
+      "Lat.": "18.4° N",
+      "Long.": "57.4° W",
+      "Diameter (km)": 2568
+    }
+   ]

@@ -1,0 +1,738 @@
+[
+    {
+      "Crater": "Abbe",
+      "Coordinates": "57.58°S 174.77°E",
+      "Diameter": 63.98,
+      "Approval": 1970,
+      "Eponym": "Ernst Abbe (1840–1905)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Abbot",
+      "Coordinates": "5.56°N 54.74°E",
+      "Diameter": 10.4,
+      "Approval": 1973,
+      "Eponym": "Charles Greeley Abbot (1872–1973)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Abel",
+      "Coordinates": "34.63°S 85.78°E",
+      "Diameter": 137.35,
+      "Approval": 1964,
+      "Eponym": "Niels Henrik Abel (1802–1829)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Abenezra",
+      "Coordinates": "20.99°S 11.89°E",
+      "Diameter": 43.19,
+      "Approval": 1935,
+      "Eponym": "Abraham ibn Ezra (1092–1167)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Abetti",
+      "Coordinates": "20.11°N 27.82°E",
+      "Diameter": 1.6,
+      "Approval": 1976,
+      "Eponym": "Antonio Abetti (1846–1928) and Giorgio Abetti (1882–1982)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Abul Wáfa",
+      "Coordinates": "0.96°N 116.63°E",
+      "Diameter": 54.18,
+      "Approval": 1970,
+      "Eponym": "Abul Wáfa (940–998)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Abulfeda",
+      "Coordinates": "13.87°S 13.91°E",
+      "Diameter": 62.23,
+      "Approval": 1935,
+      "Eponym": "Ismael Abul-fida (1273–1331)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Acosta",
+      "Coordinates": "5.65°S 60.14°E",
+      "Diameter": 13.06,
+      "Approval": 1976,
+      "Eponym": "Cristobal Acosta (1515–1580)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Adams",
+      "Coordinates": "31.89°S 68.39°E",
+      "Diameter": 63.27,
+      "Approval": 1970,
+      "Eponym": "John Couch Adams (1819–1892), Charles Hitchcock Adams (1868–1951) and Walter Sydney Adams (1876–1956)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aepinus",
+      "Coordinates": "87.96°N 109.69°W",
+      "Diameter": 16.74,
+      "Approval": 2009,
+      "Eponym": "Franz Aepinus (1724–1802)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Agatharchides",
+      "Coordinates": "19.85°S 31.11°W",
+      "Diameter": 51.98,
+      "Approval": 1935,
+      "Eponym": "Agatharchides (died c. 150 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Agrippa",
+      "Coordinates": "4.1°N 10.47°E",
+      "Diameter": 43.75,
+      "Approval": 1935,
+      "Eponym": "Agrippa (fl. 92 AD)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Airy",
+      "Coordinates": "18.14°S 5.61°E",
+      "Diameter": 38.9,
+      "Approval": 1935,
+      "Eponym": "George Biddell Airy (1801–1892)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aitken",
+      "Coordinates": "16.44°S 172.96°E",
+      "Diameter": 129.69,
+      "Approval": 1970,
+      "Eponym": "Robert Aitken (1864–1951)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Akis",
+      "Coordinates": "20.01°N 31.76°W",
+      "Diameter": 2.28,
+      "Approval": 1976,
+      "Eponym": "(Greek female name)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alan",
+      "Coordinates": "10.93°S 6.17°W",
+      "Diameter": 1.44,
+      "Approval": 1976,
+      "Eponym": "(Celtic male name)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Al-Bakri",
+      "Coordinates": "14.34°N 20.25°E",
+      "Diameter": 12.21,
+      "Approval": 1976,
+      "Eponym": "Abu Abdullah al-Bakri (1010–1094)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Albategnius",
+      "Coordinates": "11.24°S 4.01°E",
+      "Diameter": 130.84,
+      "Approval": 1935,
+      "Eponym": "al-Batani (850–929)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Albert",
+      "Coordinates": "38.3°N 35°W",
+      "Diameter": 0.1,
+      "Approval": 2012,
+      "Eponym": "German male name",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Al-Biruni",
+      "Coordinates": "18.07°N 92.62°E",
+      "Diameter": 80.41,
+      "Approval": 1970,
+      "Eponym": "al-Biruni (973–1048)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alden",
+      "Coordinates": "23.51°S 111.11°E",
+      "Diameter": 111.44,
+      "Approval": 1970,
+      "Eponym": "Harold Alden (1890–1964)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alder",
+      "Coordinates": "48.63°S 177.88°W",
+      "Diameter": 82.12,
+      "Approval": 1979,
+      "Eponym": "Kurt Alder (1902–1958)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aldrin",
+      "Coordinates": "1.41°N 22.09°E",
+      "Diameter": 2.8,
+      "Approval": 1970,
+      "Eponym": "Buzz Aldrin (born 1930)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alekhin",
+      "Coordinates": "67.94°S 131.85°W",
+      "Diameter": 74.82,
+      "Approval": 1970,
+      "Eponym": "Nikolai Alekhin (1913–1964)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alexander",
+      "Coordinates": "40.25°N 13.69°E",
+      "Diameter": 94.8,
+      "Approval": 1935,
+      "Eponym": "Alexander the Great (356–323 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alfraganus",
+      "Coordinates": "5.42°S 18.97°E",
+      "Diameter": 20.52,
+      "Approval": 1935,
+      "Eponym": "Alfraganus (died c. 840)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alhazen",
+      "Coordinates": "15.91°N 71.83°E",
+      "Diameter": 34.65,
+      "Approval": 1935,
+      "Eponym": "Alhazen (987–1038)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aliacensis",
+      "Coordinates": "30.6°S 5.13°E",
+      "Diameter": 79.65,
+      "Approval": 1935,
+      "Eponym": "Pierre d'Ailly (1350–1420)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Al-Khwarizmi",
+      "Coordinates": "7.02°N 107.01°E",
+      "Diameter": 56.25,
+      "Approval": 1973,
+      "Eponym": "al-Khwarizmi (died c. 825)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Almanon",
+      "Coordinates": "16.85°S 15.14°E",
+      "Diameter": 47.76,
+      "Approval": 1935,
+      "Eponym": "Abdalla Al Mamun (786–833)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Al-Marrakushi",
+      "Coordinates": "10.45°S 55.77°E",
+      "Diameter": 8.57,
+      "Approval": 1976,
+      "Eponym": "Ibn al-Banna al-Marrakushi (fl. c. 1281–82 AD)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aloha",
+      "Coordinates": "29.79°N 53.88°W",
+      "Diameter": 2.55,
+      "Approval": 1976,
+      "Eponym": "(a Hawaiian greeting)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alpetragius",
+      "Coordinates": "16.05°S 4.51°W",
+      "Diameter": 40.02,
+      "Approval": 1935,
+      "Eponym": "Nur Ed-Din Al Betrugi (died c. 1100)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alphonsus",
+      "Coordinates": "13.39°S 2.85°W",
+      "Diameter": 110.54,
+      "Approval": 1935,
+      "Eponym": "Alfonso X of Castile (1223–1284)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Alter",
+      "Coordinates": "18.74°N 107.8°W",
+      "Diameter": 64.73,
+      "Approval": 1970,
+      "Eponym": "Dinsmore Alter (1888–1968)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ameghino",
+      "Coordinates": "3.3°N 57.04°E",
+      "Diameter": 9.2,
+      "Approval": 1976,
+      "Eponym": "Fiorino Ameghino (1854–1911)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Amici",
+      "Coordinates": "10.06°S 172.23°W",
+      "Diameter": 52.03,
+      "Approval": 1970,
+      "Eponym": "Giovanni Amici (1786–1863)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ammonius",
+      "Coordinates": "8.52°S 0.83°W",
+      "Diameter": 8.55,
+      "Approval": 1976,
+      "Eponym": "Ammonius Hermiae (died c. 517)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Amontons",
+      "Coordinates": "5.34°S 46.78°E",
+      "Diameter": 2.47,
+      "Approval": 1976,
+      "Eponym": "Guillaume Amontons (1663–1705)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Amundsen",
+      "Coordinates": "84.44°S 83.07°E",
+      "Diameter": 103.39,
+      "Approval": 1964,
+      "Eponym": "Roald Amundsen (1872–1928)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anaxagoras",
+      "Coordinates": "73.48°N 10.17°W",
+      "Diameter": 51.9,
+      "Approval": 1935,
+      "Eponym": "Anaxagoras (500–428 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anaximander",
+      "Coordinates": "66.97°N 51.44°W",
+      "Diameter": 68.71,
+      "Approval": 1935,
+      "Eponym": "Anaximander (c. 610 – 546 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anaximenes",
+      "Coordinates": "72.49°N 44.98°W",
+      "Diameter": 81.12,
+      "Approval": 1935,
+      "Eponym": "Anaximenes (585–528 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anděl",
+      "Coordinates": "10.41°S 12.38°E",
+      "Diameter": 32.93,
+      "Approval": 1935,
+      "Eponym": "Karel Anděl (1884–1947)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anders",
+      "Coordinates": "41.31°S 143.3°W",
+      "Diameter": 41.33,
+      "Approval": 1970,
+      "Eponym": "William A. Anders (born 1933)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anderson",
+      "Coordinates": "15.5°N 170.79°E",
+      "Diameter": 105.33,
+      "Approval": 1970,
+      "Eponym": "John August Anderson (1876–1959)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Andersson",
+      "Coordinates": "49.95°S 95.46°W",
+      "Diameter": 13.42,
+      "Approval": 1985,
+      "Eponym": "Leif Erland Andersson (1943–1979)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Andronov",
+      "Coordinates": "22.68°S 146.11°E",
+      "Diameter": 16.57,
+      "Approval": 1976,
+      "Eponym": "Aleksandr Aleksandrovich Andronov (1901–1952)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ango",
+      "Coordinates": "20.48°N 32.34°W",
+      "Diameter": 0.87,
+      "Approval": 1976,
+      "Eponym": "(African male name)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Angström",
+      "Coordinates": "29.9°N 41.67°W",
+      "Diameter": 9.55,
+      "Approval": 1935,
+      "Eponym": "Anders Jonas Ångström (1814–1874)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ann",
+      "Coordinates": "25.11°N 0.05°W",
+      "Diameter": 2.12,
+      "Approval": 1976,
+      "Eponym": "(Hebrew female name)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Annegrit",
+      "Coordinates": "29.43°N 25.64°W",
+      "Diameter": 1.29,
+      "Approval": 1976,
+      "Eponym": "(German female name)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ansgarius",
+      "Coordinates": "12.92°S 79.72°E",
+      "Diameter": 91.42,
+      "Approval": 1935,
+      "Eponym": "Saint Ansgar (801–864)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Antoniadi",
+      "Coordinates": "69.3°S 173.06°W",
+      "Diameter": 137.92,
+      "Approval": 1970,
+      "Eponym": "Eugene Antoniadi (1870–1944)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anuchin",
+      "Coordinates": "48.85°S 101.66°E",
+      "Diameter": 62.14,
+      "Approval": 1979,
+      "Eponym": "Dmitry Nikolayevich Anuchin (1843–1923)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Anville",
+      "Coordinates": "1.84°N 49.51°E",
+      "Diameter": 10.26,
+      "Approval": 1976,
+      "Eponym": "Jean-Baptiste Bourguignon d'Anville (1697–1782)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Apianus",
+      "Coordinates": "26.96°S 7.87°E",
+      "Diameter": 63.44,
+      "Approval": 1935,
+      "Eponym": "Petrus Apianus (1495–1552)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Apollo",
+      "Coordinates": "35.69°S 151.48°W",
+      "Diameter": 524.23,
+      "Approval": 1970,
+      "Eponym": "Apollo program",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Apollonius",
+      "Coordinates": "4.51°N 60.96°E",
+      "Diameter": 50.66,
+      "Approval": 1935,
+      "Eponym": "Apollonius of Perga (3rd century BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Appleton",
+      "Coordinates": "37.05°N 158.17°E",
+      "Diameter": 64.59,
+      "Approval": 1970,
+      "Eponym": "Edward Victor Appleton (1892–1965)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Arago",
+      "Coordinates": "6.15°N 21.43°E",
+      "Diameter": 25.51,
+      "Approval": 1935,
+      "Eponym": "François Arago (1786–1853)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aratus",
+      "Coordinates": "23.58°N 4.51°E",
+      "Diameter": 10.23,
+      "Approval": 1935,
+      "Eponym": "Aratus of Soli (c. 315 – 245 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Archimedes",
+      "Coordinates": "29.72°N 3.99°W",
+      "Diameter": 81.04,
+      "Approval": 1935,
+      "Eponym": "Archimedes (c. 287 – 212 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Archytas",
+      "Coordinates": "58.87°N 4.99°E",
+      "Diameter": 31.95,
+      "Approval": 1935,
+      "Eponym": "Archytas (c. 428 – 347 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Argelander",
+      "Coordinates": "16.55°S 5.8°E",
+      "Diameter": 33.72,
+      "Approval": 1935,
+      "Eponym": "Friedrich Wilhelm August Argelander (1799–1875)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ariadaeus",
+      "Coordinates": "4.55°N 17.28°E",
+      "Diameter": 10.4,
+      "Approval": 1935,
+      "Eponym": "Philipus III Arrhidaeus (died 317 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aristarchus",
+      "Coordinates": "23.73°N 47.49°W",
+      "Diameter": 39.99,
+      "Approval": 1935,
+      "Eponym": "Aristarchus of Samos (c. 310 – 230 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aristillus",
+      "Coordinates": "33.88°N 1.21°E",
+      "Diameter": 54.37,
+      "Approval": 1935,
+      "Eponym": "Aristillus (fl. c. 280 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aristoteles",
+      "Coordinates": "50.24°N 17.32°E",
+      "Diameter": 87.57,
+      "Approval": 1935,
+      "Eponym": "Aristotle (384–322 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Armiński",
+      "Coordinates": "16.36°S 154.22°E",
+      "Diameter": 26.76,
+      "Approval": 1976,
+      "Eponym": "Franciszek Armiński (1789–1848)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Armstrong",
+      "Coordinates": "1.35°N 24.94°E",
+      "Diameter": 4.21,
+      "Approval": 1970,
+      "Eponym": "Neil Armstrong (1930–2012)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Arnold",
+      "Coordinates": "66.98°N 35.83°E",
+      "Diameter": 93.13,
+      "Approval": 1935,
+      "Eponym": "Christoph Arnold (1650–1695)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Arrhenius",
+      "Coordinates": "55.58°S 91.45°W",
+      "Diameter": 40.93,
+      "Approval": 1970,
+      "Eponym": "Svante Arrhenius (1859–1927)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Artamonov",
+      "Coordinates": "25.44°N 103.79°E",
+      "Diameter": 62.45,
+      "Approval": 1970,
+      "Eponym": "Nikolaj N. Artamonov (1906–1965)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Artem'ev",
+      "Coordinates": "10.4°N 145.22°W",
+      "Diameter": 66.39,
+      "Approval": 1970,
+      "Eponym": "Vladimir A. Artemyev (1885–1962)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Artemis",
+      "Coordinates": "25.03°N 25.36°W",
+      "Diameter": 2.28,
+      "Approval": 1976,
+      "Eponym": "Greek goddess",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Artsimovich",
+      "Coordinates": "27.61°N 36.63°W",
+      "Diameter": 7.96,
+      "Approval": 1973,
+      "Eponym": "Lev A. Artsimovich (1909–1973)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aryabhata",
+      "Coordinates": "6.2°N 35.17°E",
+      "Diameter": 21.89,
+      "Approval": 1979,
+      "Eponym": "Aryabhata (476 – c. 550)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Arzachel",
+      "Coordinates": "18.26°S 1.93°W",
+      "Diameter": 96.99,
+      "Approval": 1935,
+      "Eponym": "Arzachel (c. 1028 – 1087)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Asada",
+      "Coordinates": "7.25°N 49.9°E",
+      "Diameter": 12.37,
+      "Approval": 1976,
+      "Eponym": "Goryu Asada (1734–1799)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Asclepi",
+      "Coordinates": "55.19°S 25.52°E",
+      "Diameter": 40.56,
+      "Approval": 1935,
+      "Eponym": "Giuseppe Asclepi (1706–1776)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Ashbrook",
+      "Coordinates": "81.1°S 110.58°W",
+      "Diameter": 157.68,
+      "Approval": 1994,
+      "Eponym": "Joseph Ashbrook (1918–1980)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Aston",
+      "Coordinates": "32.77°N 87.68°W",
+      "Diameter": 44.48,
+      "Approval": 1964,
+      "Eponym": "Francis William Aston (1877–1945)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Atlas",
+      "Coordinates": "46.74°N 44.38°E",
+      "Diameter": 88.12,
+      "Approval": 1935,
+      "Eponym": "Atlas (mythology)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Atwood",
+      "Coordinates": "5.88°S 57.78°E",
+      "Diameter": 28.64,
+      "Approval": 1976,
+      "Eponym": "George Atwood (1745–1807)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Autolycus",
+      "Coordinates": "30.68°N 1.49°E",
+      "Diameter": 38.88,
+      "Approval": 1935,
+      "Eponym": "Autolycus of Pitane (c. 360 BC – c. 290 BC)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Auwers",
+      "Coordinates": "15°N 17.12°E",
+      "Diameter": 19.64,
+      "Approval": 1935,
+      "Eponym": "Arthur Auwers (1838–1915)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Auzout",
+      "Coordinates": "10.21°N 64.01°E",
+      "Diameter": 32.92,
+      "Approval": 1961,
+      "Eponym": "Adrien Auzout (1622–1691)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Avery",
+      "Coordinates": "1.32°S 81.37°E",
+      "Diameter": 10.73,
+      "Approval": 1976,
+      "Eponym": "Oswald Theodore Avery (1877–1955)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Avicenna",
+      "Coordinates": "39.63°N 97.28°W",
+      "Diameter": 72.99,
+      "Approval": 1970,
+      "Eponym": "Avicenna (980–1037)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Avogadro",
+      "Coordinates": "63.21°N 165.36°E",
+      "Diameter": 129.84,
+      "Approval": 1970,
+      "Eponym": "Amedeo Avogadro (1776–1856)",
+      "Ref": "WGPSN"
+    },
+    {
+      "Crater": "Azophi",
+      "Coordinates": "22.19°S 12.7°E",
+      "Diameter": 47.54,
+      "Approval": 1935,
+      "Eponym": "Abd Al-Rahman Al Sufi (903–986)",
+      "Ref": "WGPSN"
+    }
+   ]

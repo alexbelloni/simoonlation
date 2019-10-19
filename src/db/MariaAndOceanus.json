@@ -1,0 +1,439 @@
+[
+    {
+        "Latin Name": "Mare Anguis",
+        "English Name": "Serpent Sea",
+        "Lat.": "22.6° N",
+        "Long.": "67.7° E",
+        "Diameter (km)": 150,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "22.6",
+        "Lon": "67.7",
+        "Diameter": 1.3513513513513513,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Australe",
+        "English Name": "Southern Sea",
+        "Lat.": "38.9° S",
+        "Long.": "93.0° E",
+        "Diameter (km)": 603,
+        "Area": "maria",
+        "Quadrant": "SE",
+        "Lat": "38.9",
+        "Lon": "93.0",
+        "Diameter": 5.4324324324324325,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Cognitum",
+        "English Name": "Sea of Knowledge",
+        "Lat.": "10.0° S",
+        "Long.": "23.1° W",
+        "Diameter (km)": 376,
+        "Area": "maria",
+        "Quadrant": "SW",
+        "Lat": "10.0",
+        "Lon": "23.1",
+        "Diameter": 3.3873873873873874,
+        "RegolithThickness": {
+            "Area": "Mare Cognitum ",
+            "A": 4.9,
+            "B": 4.9,
+            "C": 4.8
+        },
+        "Age": "3.7"
+    },
+    {
+        "Latin Name": "Mare Crisium",
+        "English Name": "Sea of Crises",
+        "Lat.": "17.0° N",
+        "Long.": "59.1° E",
+        "Diameter (km)": 418,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "17.0",
+        "Lon": "59.1",
+        "Diameter": 3.765765765765766,
+        "RegolithThickness": {
+            "Area": "Mare Crisium ",
+            "A": 4.7,
+            "B": 4.8,
+            "C": 4.8
+        },
+        "Age": "3.9"
+    },
+    {
+        "Latin Name": "Mare Fecunditatis",
+        "English Name": "Sea of Fecundity",
+        "Lat.": "7.8° S",
+        "Long.": "51.3° E",
+        "Diameter (km)": 909,
+        "Area": "maria",
+        "Quadrant": "SE",
+        "Lat": "7.8",
+        "Lon": "51.3",
+        "Diameter": 8.18918918918919,
+        "RegolithThickness": {
+            "Area": "Mare Fecunditatis ",
+            "A": 5.7,
+            "B": 5.9,
+            "C": 5.9
+        },
+        "Age": "4"
+    },
+    {
+        "Latin Name": "Mare Frigoris",
+        "English Name": "Sea of Cold",
+        "Lat.": "56.0° N",
+        "Long.": "1.4° E",
+        "Diameter (km)": 1596,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "56.0",
+        "Lon": "1.4",
+        "Diameter": 14.378378378378379,
+        "RegolithThickness": {
+            "Area": "Mare Frigoris ",
+            "A": 6.7,
+            "B": 7,
+            "C": 6
+        },
+        "Age": "2.5"
+    },
+    {
+        "Latin Name": "Mare Humboldtianum",
+        "English Name": "Sea of Alexander von Humboldt",
+        "Lat.": "56.8° N",
+        "Long.": "81.5° E",
+        "Diameter (km)": 273,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "56.8",
+        "Lon": "81.5",
+        "Diameter": 2.4594594594594597,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Humorum",
+        "English Name": "Sea of Moisture",
+        "Lat.": "24.4° S",
+        "Long.": "38.6° W",
+        "Diameter (km)": 389,
+        "Area": "maria",
+        "Quadrant": "SW",
+        "Lat": "24.4",
+        "Lon": "38.6",
+        "Diameter": 3.5045045045045047,
+        "RegolithThickness": {
+            "Area": "Mare Humorum ",
+            "A": 4.1,
+            "B": 4,
+            "C": 4.1
+        },
+        "Age": "3.9"
+    },
+    {
+        "Latin Name": "Mare Imbrium[2]",
+        "English Name": "Sea of Showers",
+        "Lat.": "32.8° N",
+        "Long.": "15.6° W",
+        "Diameter (km)": 1123,
+        "Area": "maria",
+        "Quadrant": "NW",
+        "Lat": "32.8",
+        "Lon": "15.6",
+        "Diameter": 10.117117117117116,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Ingenii",
+        "English Name": "Sea of Cleverness",
+        "Lat.": "33.7° S",
+        "Long.": "163.5° E",
+        "Diameter (km)": 318,
+        "Area": "maria",
+        "Quadrant": "SE",
+        "Lat": "33.7",
+        "Lon": "163.5",
+        "Diameter": 2.864864864864865,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Insularum",
+        "English Name": "Sea of Islands",
+        "Lat.": "7.5° N",
+        "Long.": "30.9° W",
+        "Diameter (km)": 513,
+        "Area": "maria",
+        "Quadrant": "NW",
+        "Lat": "7.5",
+        "Lon": "30.9",
+        "Diameter": 4.621621621621622,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Marginis",
+        "English Name": "Sea of the Edge",
+        "Lat.": "13.3° N",
+        "Long.": "86.1° E",
+        "Diameter (km)": 420,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "13.3",
+        "Lon": "86.1",
+        "Diameter": 3.7837837837837838,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Moscoviense",
+        "English Name": "Sea of Moscow",
+        "Lat.": "27.3° N",
+        "Long.": "147.9° E",
+        "Diameter (km)": 277,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "27.3",
+        "Lon": "147.9",
+        "Diameter": 2.4954954954954953,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Nectaris",
+        "English Name": "Sea of Nectar",
+        "Lat.": "15.2° S",
+        "Long.": "35.5° E",
+        "Diameter (km)": 333,
+        "Area": "maria",
+        "Quadrant": "SE",
+        "Lat": "15.2",
+        "Lon": "35.5",
+        "Diameter": 3,
+        "RegolithThickness": {
+            "Area": "Mare Nectaris ",
+            "A": 8.5,
+            "B": 9.3,
+            "C": 7.8
+        },
+        "Age": "3.8"
+    },
+    {
+        "Latin Name": "Mare Nubium",
+        "English Name": "Sea of Clouds",
+        "Lat.": "21.3° S",
+        "Long.": "16.6° W",
+        "Diameter (km)": 715,
+        "Area": "maria",
+        "Quadrant": "SW",
+        "Lat": "21.3",
+        "Lon": "16.6",
+        "Diameter": 6.441441441441442,
+        "RegolithThickness": {
+            "Area": "Mare Nubium ",
+            "A": 5.5,
+            "B": 5.5,
+            "C": 5.1
+        },
+        "Age": "2.5"
+    },
+    {
+        "Latin Name": "Mare Orientale",
+        "English Name": "Eastern Sea",
+        "Lat.": "19.4° S",
+        "Long.": "92.8° W",
+        "Diameter (km)": 327,
+        "Area": "maria",
+        "Quadrant": "SW",
+        "Lat": "19.4",
+        "Lon": "92.8",
+        "Diameter": 2.945945945945946,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Serenitatis",
+        "English Name": "Sea of Serenity",
+        "Lat.": "28.0° N",
+        "Long.": "17.5° E",
+        "Diameter (km)": 707,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "28.0",
+        "Lon": "17.5",
+        "Diameter": 6.36936936936937,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Smythii",
+        "English Name": "Smyth's Sea",
+        "Lat.": "1.3° N",
+        "Long.": "87.5° E",
+        "Diameter (km)": 373,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "1.3",
+        "Lon": "87.5",
+        "Diameter": 3.3603603603603602,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Spumans",
+        "English Name": "Foaming Sea",
+        "Lat.": "1.1° N",
+        "Long.": "65.1° E",
+        "Diameter (km)": 139,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "1.1",
+        "Lon": "65.1",
+        "Diameter": 1.2522522522522523,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Tranquillitatis",
+        "English Name": "Sea of Tranquility",
+        "Lat.": "8.5° N",
+        "Long.": "31.4° E",
+        "Diameter (km)": 873,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "8.5",
+        "Lon": "31.4",
+        "Diameter": 7.864864864864865,
+        "RegolithThickness": {
+            "Area": "Mare Tranquillitatis ",
+            "A": 4.2,
+            "B": 4.2,
+            "C": 4.4
+        },
+        "Age": "4"
+    },
+    {
+        "Latin Name": "Mare Undarum",
+        "English Name": "Sea of Waves",
+        "Lat.": "6.8° N",
+        "Long.": "68.4° E",
+        "Diameter (km)": 243,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "6.8",
+        "Lon": "68.4",
+        "Diameter": 2.189189189189189,
+        "RegolithThickness": {
+            "Area": "Average mare",
+            "A": 5.2,
+            "B": 5.3,
+            "C": 5.1
+        },
+        "Age": ""
+    },
+    {
+        "Latin Name": "Mare Vaporum",
+        "English Name": "Sea of Vapors",
+        "Lat.": "13.3° N",
+        "Long.": "3.6° E",
+        "Diameter (km)": 245,
+        "Area": "maria",
+        "Quadrant": "NE",
+        "Lat": "13.3",
+        "Lon": "3.6",
+        "Diameter": 2.2072072072072073,
+        "RegolithThickness": {
+            "Area": "Mare Vaporum ",
+            "A": 5.3,
+            "B": 5.4,
+            "C": 5.3
+        },
+        "Age": "4.2"
+    },
+    {
+        "Latin Name": "Oceanus Procellarum",
+        "English Name": "Ocean of Storms",
+        "Lat.": "18.4° N",
+        "Long.": "57.4° W",
+        "Diameter (km)": 2568,
+        "Area": "maria",
+        "Quadrant": "NW",
+        "Lat": "18.4",
+        "Lon": "57.4",
+        "Diameter": 23.135135135135137,
+        "RegolithThickness": {
+            "Area": "Oceanus Procellarum ",
+            "A": 4.8,
+            "B": 4.9,
+            "C": 5
+        },
+        "Age": "3.5"
+    }
+]

@@ -1,0 +1,98 @@
+[
+ {
+   "Area": "Average mare ",
+   "A": 5.2,
+   "B": 5.3,
+   "C": 5.1
+ },
+ {
+   "Area": "Average highland ",
+   "A": 11,
+   "B": 10.7,
+   "C": 10.6
+ },
+ {
+   "Area": "Mare Tranquillitatis ",
+   "A": 4.2,
+   "B": 4.2,
+   "C": 4.4
+ },
+ {
+   "Area": "Mare Crisium ",
+   "A": 4.7,
+   "B": 4.8,
+   "C": 4.8
+ },
+ {
+   "Area": "Mare Fecunditatis ",
+   "A": 5.7,
+   "B": 5.9,
+   "C": 5.9
+ },
+ {
+   "Area": "Mare Frigoris ",
+   "A": 6.7,
+   "B": 7,
+   "C": 6
+ },
+ {
+   "Area": "Mare Imbrium ",
+   "A": 5.8,
+   "B": 6.1,
+   "C": 5.7
+ },
+ {
+   "Area": "Mare Humorum ",
+   "A": 4.1,
+   "B": 4,
+   "C": 4.1
+ },
+ {
+   "Area": "Mare Nectaris ",
+   "A": 8.5,
+   "B": 9.3,
+   "C": 7.8
+ },
+ {
+   "Area": "Mare Vaporum ",
+   "A": 5.3,
+   "B": 5.4,
+   "C": 5.3
+ },
+ {
+   "Area": "Mare Nubium ",
+   "A": 5.5,
+   "B": 5.5,
+   "C": 5.1
+ },
+ {
+   "Area": "Mare Cognitum ",
+   "A": 4.9,
+   "B": 4.9,
+   "C": 4.8
+ },
+ {
+   "Area": "Sinus Roris ",
+   "A": 7,
+   "B": 7.5,
+   "C": 6.8
+ },
+ {
+   "Area": "Sinus Iridium ",
+   "A": 4.6,
+   "B": 4.6,
+   "C": 4.6
+ },
+ {
+   "Area": "Sinus Aestuum ",
+   "A": 6.1,
+   "B": 6.3,
+   "C": 5.8
+ },
+ {
+   "Area": "Oceanus Procellarum ",
+   "A": 4.8,
+   "B": 4.9,
+   "C": 5
+ }
+]
