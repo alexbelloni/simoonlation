@@ -18,7 +18,7 @@ const About = ()=>{
             <p>Thinkness: the mean regolith layer thickness according to the table on Yurij G. Shkuratov's paper.</p>
             <p>Age: supposed age of each formation.</p>
             <p>Electrostatics: analysis based on the type of area, period of the day, thickness, and temperature.</p>
-            <p>Visit the page of our project here: ...</p>
+            <p>Visit the page of our project <a href='https://2019.spaceappschallenge.org/challenges/our-moon/dust-yourself-and-try-again/teams/datanauts-n-simoonlators/project' target='_blank'>here</a></p>
         </div>
       )
 }
