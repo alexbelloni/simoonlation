@@ -1,29 +1,26 @@
 import React from 'react';
-import { Container, Fade, Row, Col, Spinner, InputGroup, FormControl, Button, Card, Badge } from 'react-bootstrap';
+import { Container, Fade, Row, Col, Spinner, InputGroup, FormControl, Button, Card, Badge, Image, Nav } from 'react-bootstrap';
 import './Home.css'
 import themaria from './db/MariaAndOceanus.json'
 import lacus from './db/Lacus.json'
 import sinusAndPaludes from './db/SinusAndPaludes.json'
 import craters from './db/Craters.json'
 import composition from './db/SurfaceComposition.json'
+import moonLoading from './assets/152.gif'
+import DustManager from './DustManager'
+import About from './About'
 
 export default class Home extends React.Component {
-  state = { Lat: '9.9° S', Lon: '85° W', places: '' }
+  state = { Lat: "54.0° N", Lon: "56.6° W", places: '', time: 12, loading: false, isHome: true }
   constructor(props) {
     super(props);
   }
 
-  //{descr,alert}
-  getRegolithThicknessClassification(thickness) {
-    if (!thickness) return { alert: -1, descr: '' }
-    const thicknessDescr = `${thickness.A} / ${thickness.B} / ${thickness.C}`
-    if (thickness.A <= 4.1) return { alert: 0, descr: `${thicknessDescr}: thin regolith layer` }
-    if (thickness.A >= 7) return { alert: 2, descr: `${thicknessDescr}: thickest regolith layer` }
-    return { alert: 1, descr: thicknessDescr }
+  getFieldValue(field, value, component) {
+    return <div><span>{field}: </span> <span><b>{value}</b></span> {component}</div>
   }
 
-  getJSXArea(m) {
-    const thickness = this.getRegolithThicknessClassification(m['RegolithThickness'])
+  getBadgeThickness(m, thickness) {
     let badge = <Badge variant="warning">Warning</Badge>
     switch (thickness.alert) {
       case 0:
@@ -33,19 +30,71 @@ export default class Home extends React.Component {
         badge = <Badge variant="danger">Danger</Badge>
         break
     }
+    return badge
+  }
+
+  getBadgeTemperature(m, temperature) {
+    let badgeTemperature = <Badge variant="warning">Warning</Badge>
+    if (temperature.value < -100) {
+      badgeTemperature = <Badge variant="danger">Danger</Badge>
+    } else if (temperature.value > 100) {
+      badgeTemperature = <Badge variant="danger">Danger</Badge>
+    }
+    else if (temperature.value > -30 && temperature.value < 40) {
+      badgeTemperature = <Badge variant="success">Normal</Badge>
+    }
+    return badgeTemperature
+  }
+
+  getBadgeAge(m) {
+    return m.Age ? <Badge variant="danger">Danger</Badge> : <Badge variant="warning">Warning</Badge>
+  }
+
+  getBadgeElectrostatics(hasParticles) {
+    return hasParticles ? <Badge variant="danger">Danger</Badge> : <Badge variant="warning">Warning</Badge>
+  }
+
+  getChemicalComposition(m) {
+    return (
+      m.Area === 'maria' ?
+        composition.Maria.map(c => <div className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>) :
+        composition.Highlands.map(c => <div className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>)
+    )
+  }
+
+  getJSXArea(m) {
+    const thickness = DustManager.getRegolithThicknessClassification(m)
+    const badgeThickness = this.getBadgeThickness(m, thickness)
+    const temperature = DustManager.getTemperature(m, this.state.time)
+    const badgeTemperature = this.getBadgeTemperature(m, temperature)
+
     return (
       <Card key={m['Latin Name']} bg="light">
         <Card.Header><b>{m['Latin Name']}</b></Card.Header>
         <Card.Body>
           <Card.Text>
-            <div>{m['English Name']} . Diameter(km): {m['Diameter (km)']}<span>{m['Age'] && ` Age: ${m['Age']} billion years ago`}</span></div>
-            <div>Coordinates: {m['Lat.']} {m['Long.']}</div>
-            {badge}
-            <div>Temperature: {this.getTemperature(m).descr}</div>
-            <div>Composition: {composition.Maria.map(c => <div className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>)}</div>
+            <Row>
+              <Col md={4}>
+                <h4>Dust-wise:</h4>
+                {/* <div>Thickness <Badge variant="danger"
+                  onClick={() => alert('The thickness of the lunar regolith varies between around 2 meters (6.6 ft) beneath the maria, to up to 20 meters (66 ft) beneath the highlands')}>?</Badge>: */}
+                {this.getFieldValue('Thickness', thickness.descr || 'unknown', badgeThickness)}
+                {this.getFieldValue('Temperature', temperature.descr || 'unknown', badgeTemperature)}
+                {this.getFieldValue('Electrostatics', this.getBadgeElectrostatics(DustManager.hasParticlesLevitating(m, this.state.time)))}
+                {this.getFieldValue('Age', m['Age'] ? `${m['Age']} billion years ago` : 'unknown', this.getBadgeAge(m))}
+              </Col>
+              <Col md={4}>
+                {this.getFieldValue('English Name', m['English Name'])}
+                {this.getFieldValue('Area', m['Area'])}
+                {this.getFieldValue('Diameter', `${m['Diameter (km)']}km`)}
+                {this.getFieldValue('Coordinates', `${m['Lat.']} ${m['Long.']}`)}
+              </Col>
+              <Col md={4}>
+                <div>Chemical Composition: {this.getChemicalComposition(m)}</div>
+              </Col>
+            </Row>
           </Card.Text>
         </Card.Body>
-        <Card.Footer className="text-muted">Thickness: {thickness.descr}</Card.Footer>
       </Card>
     )
   }
@@ -74,7 +123,7 @@ export default class Home extends React.Component {
     return lon.replace('°', '').substr(0, lon.indexOf(' '))
   }
 
-  check_a_point(a, b, x, y, r) {
+  isInsideCircle(a, b, x, y, r) {
     var dist_points = (a - x) * (a - x) + (b - y) * (b - y);
     r *= r;
     if (dist_points < r) {
@@ -89,67 +138,42 @@ export default class Home extends React.Component {
     const arrFiltered = arrGeneral.filter(a => a.Quadrant === quadrant)
     const lat1 = this.getLatNumber(lat)
     const lon1 = this.getLonNumber(lon)
-    return arrFiltered.filter(a => this.check_a_point(lat1, lon1, a.Lat, a.Lon, a.Diameter))
+    return arrFiltered.filter(a => this.isInsideCircle(lat1, lon1, a.Lat, a.Lon, a.Diameter))
   }
 
   setStateAndGo(Lat, Lon) {
     const me = this
-    this.setState({ Lat, Lon }, () => me.setState({
-      places: me.whereAmI(this.state.Lat, this.state.Lon).map(m => me.getJSXArea(m))
-    }))
+
+    this.setState({ loading: true, Lat, Lon }, () => {
+      setTimeout(() => {
+        me.setState({ loading: false, places: me.whereAmI(me.state.Lat, me.state.Lon).map(m => me.getJSXArea(m)) })
+
+      }, 1000);
+    })
   }
 
-  //{descr,value}
-getTemperature(place, time){
-  //When sunlight hits the moon's surface, the temperature can reach 260 degrees Fahrenheit (127 degrees Celsius)
-  //When the sun goes down, temperatures can dip to minus 280 F (minus 173 C)
-  //the lunar poles that never see daylight.
-  //minus 396 F (minus 238 C) in craters at the southern pole and minus 413 F (minus 247 C) in a crater at the northern pole.
-  if(place.Area === 'crater'){
-    if(parseFloat(place.Lat) >= 60){
-      if(place.Quadrant.indexOf('S')>-1){
-        return {descr:'-396.F -238.C'}
-      }
-      if(place.Quadrant.indexOf('N')>-1){
-        return {descr:'-413.F -247.C'}
-      }
-    } 
+  getAbout() {
+    return <About />
   }
-  return {descr:'?'}
-}
 
-getAbout(){
-return (
-  <div>
-  <label htmlFor="basic-url">About our Data:</label>
-  <Row>
-    <Col>
-      <p>Quantity of Maria: {themaria.length}</p>
-      <p>Quantity of Lacus: {lacus.length}</p>
-      <p>Quantity of Sinus: {sinusAndPaludes.length}</p>
-      <p>Quantity of Craters: {craters.length}</p>
-      <br/>
-      <p>Coordinates, composition and thickness of the moon areas, and temperatures</p>
-    </Col>
-  </Row>  
-  </div>
-)
-}
-
-  render() {
+  getHome() {
+    const me = this
+    function getButton(name, lat, lon) {
+      return <Col><Button variant="primary" size="sm" onClick={() => me.setStateAndGo(lat, lon)}>{name}</Button></Col>
+    }
     return (
-      <Container>
-        <h1>Si<b>moon</b>lation</h1>
+      <div>
         <Row>
           <Col md={9}>
             <h4 htmlFor="basic-url">Calibrate our direction:</h4>
             <label htmlFor="basic-url">Specific Areas</label>
             <Row>
-              <Col md={2}><Button variant="primary" onClick={() => this.setStateAndGo("13.3° N", "3.6° E")}>Mare Vaporum</Button></Col>
-              <Col md={2}><Button variant="primary" onClick={() => this.setStateAndGo("35.4° S", "44.0° W")}>Lacus Excellentiae</Button></Col>
-              <Col md={2}><Button variant="primary" onClick={() => this.setStateAndGo("54.0° N", "56.6° W")}>Sinus Roris</Button></Col>
-              <Col md={2}><Button variant="primary" onClick={() => this.setStateAndGo("46.74° N", "44.38° E")}>Crater Atlas</Button></Col>
-              <Col md={2}><Button variant="primary" onClick={() => this.setStateAndGo("66.98° N","35.83° E")}>Crater Arnold</Button></Col>
+              {getButton('Mare Vaporum', "13.3° N", "3.6° E")}
+              {/* {getButton('Lacus Excellentiae', "35.4° S", "44.0° W")} */}
+              {getButton('Sinus Roris', "54.0° N", "56.6° W")}
+              {/* {getButton('Crater Atlas', "46.74° N", "44.38° E")} */}
+              {getButton('Crater Arnold', "66.98° N", "35.83° E")}
+              {getButton('Sinus Successus', "0.9° N", "59.0° E")}
             </Row>
             <label htmlFor="basic-url">Coordinates</label>
             <Row>
@@ -173,8 +197,6 @@ return (
                   <FormControl id="basic-url" aria-describedby="basic-addon3" value={this.state.Lon} onChange={(e) => { this.setState({ Lon: e.target.value }) }} />
                 </InputGroup>
               </Col>
-            </Row>
-            <Row>
               <Col md={3}>
                 <InputGroup className="mb-3">
                   <InputGroup.Prepend>
@@ -182,20 +204,17 @@ return (
                       Time
               </InputGroup.Text>
                   </InputGroup.Prepend>
-                  <FormControl id="basic-url" aria-describedby="basic-addon3" />
+                  <FormControl id="basic-url" aria-describedby="basic-addon3" value={this.state.time} onChange={(e) => { this.setState({ time: e.target.value }, () => console.log(this.state.time)) }} />
                 </InputGroup>
               </Col>
             </Row>
           </Col>
-          <Col md={3}>
-           {this.getAbout()}
-          </Col>
         </Row>
-
         <Row>
           <Col>
-            <Button variant="dark" onClick={
+            <Button variant="dark" size="lg" onClick={
               () => {
+                const me = this
                 if (
                   (
                     this.state.Lat.indexOf(' N') > -1 ||
@@ -206,22 +225,48 @@ return (
                     this.state.Lon.indexOf(' W') > -1
                   )
                 ) {
-                  this.setState({
-                    places: <div><h6>Landed on:</h6>{this.whereAmI(this.state.Lat, this.state.Lon).map(m => this.getJSXArea(m))}</div>
+                  this.setState({ loading: true }, () => {
+                    setTimeout(() => {
+                      me.setState({ loading: false, places: this.whereAmI(this.state.Lat, this.state.Lon).map(m => this.getJSXArea(m)) })
+                    }, 1000);
                   })
                 }
               }
             }>Land!</Button>
           </Col>
         </Row>
+
+      </div>
+    )
+  }
+
+  render() {
+    return (
+      <Container>
         <Row>
           <Col>
+          <h1 style={{ marginTop: '10px', marginBottom: '15px' }}><Image src={moonLoading} fluid /> Si<b>moon</b>lation</h1>
+          </Col>
+        </Row>      
+
+        <Button variant="outline-primary" onClick={(e) => { e.preventDefault(); this.setState({ isHome: true }) }}>Home</Button>
+        <Button variant="outline-primary" onClick={(e) => { e.preventDefault(); this.setState({ isHome: false }) }}>About</Button>
+
+        <div style={{ marginTop: '10px' }}>
+          {this.state.isHome ? this.getHome() : this.getAbout()}
+        </div>
+
+        <Row>
+          <Col md={12} style={this.state.loading ? { textAlign: 'center' } : { textAlign: 'left' }}>
             <br />
-            {
-              this.state.places
-            }
+
+
+            {this.state.loading ? <Spinner animation="grow" /> : (this.state.places && this.state.isHome && this.state.places.length > 0 ?
+              <div><h6>Landed on:</h6>{this.state.places}</div>
+            : this.state.isHome && <p>Area not mapped</p>)}
           </Col>
         </Row>
+
       </Container>
     );
   }
