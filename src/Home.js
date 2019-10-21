@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Fade, Row, Col, Spinner, InputGroup, FormControl, Button, Card, Badge, Image, Nav } from 'react-bootstrap';
+import { Container, Fade, Row, Col, Spinner, InputGroup, FormControl, Button, Card, Badge, Image, Modal } from 'react-bootstrap';
 import './Home.css'
 import themaria from './db/MariaAndOceanus.json'
 import lacus from './db/Lacus.json'
@@ -9,9 +9,10 @@ import composition from './db/SurfaceComposition.json'
 import moonLoading from './assets/152.gif'
 import DustManager from './DustManager'
 import About from './About'
+import SearchMore from './SearchMore'
 
 export default class Home extends React.Component {
-  state = { Lat: "54.0° N", Lon: "56.6° W", places: '', time: 12, loading: false, isHome: true }
+  state = { Lat: "54.0° N", Lon: "56.6° W", places: '', time: 12, loading: false, isHome: true, showModal: false }
   constructor(props) {
     super(props);
   }
@@ -57,8 +58,8 @@ export default class Home extends React.Component {
   getChemicalComposition(m) {
     return (
       m.Area === 'maria' ?
-        composition.Maria.map(c => <div className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>) :
-        composition.Highlands.map(c => <div className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>)
+        composition.Maria.map(c => <div key='cc' className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>) :
+        composition.Highlands.map(c => <div key='cc' className='small'>{`${c.Compound} - ${c.Formula} - ${c.Composition}`}</div>)
     )
   }
 
@@ -146,7 +147,7 @@ export default class Home extends React.Component {
 
     this.setState({ loading: true, Lat, Lon }, () => {
       setTimeout(() => {
-        me.setState({ loading: false, places: me.whereAmI(me.state.Lat, me.state.Lon).map(m => me.getJSXArea(m)) })
+        me.setState({ loading: false, showModal:false, places: me.whereAmI(me.state.Lat, me.state.Lon).map(m => me.getJSXArea(m)) })
 
       }, 1000);
     })
@@ -174,7 +175,23 @@ export default class Home extends React.Component {
               {/* {getButton('Crater Atlas', "46.74° N", "44.38° E")} */}
               {getButton('Crater Arnold', "66.98° N", "35.83° E")}
               {getButton('Sinus Successus', "0.9° N", "59.0° E")}
+              <Button variant="info" size="sm" onClick={()=>this.setState({showModal: true})}>More...</Button>
             </Row>
+            <Modal
+                 show={this.state.showModal}
+                 onHide={() =>this.setState({showModal: false}) }
+                 dialogClassName="modal-90w"
+                 aria-labelledby="example-custom-modal-styling-title"
+               >
+                 <Modal.Header closeButton>
+                   <Modal.Title id="example-custom-modal-styling-title">
+                     More Areas
+                   </Modal.Title>
+                 </Modal.Header>
+                 <Modal.Body>
+                   <SearchMore onClick={(lat, lon)=>{this.setStateAndGo(lat, lon)}}/>
+                 </Modal.Body>
+               </Modal>
             <label htmlFor="basic-url">Coordinates</label>
             <Row>
               <Col md={3}>
@@ -204,7 +221,7 @@ export default class Home extends React.Component {
                       Time
               </InputGroup.Text>
                   </InputGroup.Prepend>
-                  <FormControl id="basic-url" aria-describedby="basic-addon3" value={this.state.time} onChange={(e) => { this.setState({ time: e.target.value }, () => console.log(this.state.time)) }} />
+                  <FormControl id="basic-url" aria-describedby="basic-addon3" value={this.state.time} onChange={(e) => { this.setState({ time: e.target.value }, ) }} />
                 </InputGroup>
               </Col>
             </Row>
